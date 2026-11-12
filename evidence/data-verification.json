@@ -1,0 +1,64 @@
+{
+  "data_rows": 40,
+  "headers": [
+    "日期",
+    "区域",
+    "产品",
+    "销售员",
+    "销量",
+    "销售额(元)"
+  ],
+  "date_range": [
+    "2026-10-05",
+    "2026-10-16"
+  ],
+  "dates": [
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16"
+  ],
+  "totals": {
+    "华东": {
+      "previous": 56185,
+      "current": 59979,
+      "delta": 3794,
+      "pct": 6.8,
+      "matches_brief": true
+    },
+    "华北": {
+      "previous": 45305,
+      "current": 25844,
+      "delta": -19461,
+      "pct": -43.0,
+      "matches_brief": true
+    },
+    "华南": {
+      "previous": 50197,
+      "current": 52292,
+      "delta": 2095,
+      "pct": 4.2,
+      "matches_brief": true
+    },
+    "西南": {
+      "previous": 31932,
+      "current": 33528,
+      "delta": 1596,
+      "pct": 5.0,
+      "matches_brief": true
+    }
+  },
+  "weekly_total": [
+    183619,
+    171643
+  ],
+  "five_products_each_region_week": true,
+  "dates_match_brief": true,
+  "source_sha256": "6920b6c3961252c2e3f30fef75fc8cf334d87cf79a2c6ffa44539cd43732f488"
+}

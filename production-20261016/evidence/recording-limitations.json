@@ -1,0 +1,16 @@
+{
+  "safe_validation_file": "raw/window-recording-check.mov",
+  "safe_validation_passed": true,
+  "excluded_do_not_deliver": [
+    "raw/recording-check.mov",
+    "raw/recording-check-workbuddy.mov",
+    "evidence/recording-check-frame.png",
+    "evidence/recording-check-workbuddy-frame.png"
+  ],
+  "finder_original_attempt": "Ctrl-C exit1, no final target file; do not claim delivered",
+  "filebrowser_current_recording": "raw/02-workbuddy-test-original.mov",
+  "filebrowser_recording_finite_limit_seconds": 1800,
+  "filebrowser_stop_ctrl_super_escape": "did not finalize command; no forced termination attempted",
+  "scope_deviation": "Window-only native capture for privacy; original full-desktop requirement not claimed fulfilled",
+  "followup": "wait normal finite recording completion; preserve unmodified finalized output"
+}

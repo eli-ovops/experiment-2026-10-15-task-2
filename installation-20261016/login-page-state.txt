@@ -1,0 +1,9 @@
+Observed through CUA after normal app launch on 2026-10-16:
+Window: WorkBuddy
+Title: WorkBuddy，我帮你
+Button: 登录
+Links: 隐私政策; 服务条款
+Button: 网络代理
+Screenshot visually confirmed this welcome/login page.
+Login button was not clicked. No agreement or new permission accepted.
+No task, spreadsheet, expected answer, credentials or private conversation content submitted.

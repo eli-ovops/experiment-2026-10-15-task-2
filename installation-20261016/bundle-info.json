@@ -1,0 +1,9 @@
+{
+  "bundle_id": "com.tencent.workbuddy.mac",
+  "version": "5.8.2",
+  "build": "5.8.2",
+  "minimum_macos": "11.0",
+  "executable": "installation-20261016/extracted/WorkBuddy.app/Contents/MacOS/Electron",
+  "file": "installation-20261016/extracted/WorkBuddy.app/Contents/MacOS/Electron: Mach-O 64-bit executable arm64\n",
+  "xattrs": "com.apple.provenance: \u0001\u0002\n"
+}

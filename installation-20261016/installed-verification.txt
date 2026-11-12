@@ -1,0 +1,2 @@
+/Applications/WorkBuddy.app: valid on disk
+/Applications/WorkBuddy.app: satisfies its Designated Requirement

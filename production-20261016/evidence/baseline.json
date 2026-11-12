@@ -1,0 +1,15 @@
+{
+  "observed_utc": "2026-10-16T01:14:30.237875+00:00",
+  "logged_in": true,
+  "account_display": "神",
+  "version_ui": "V5.8.2",
+  "model_ui": "快速",
+  "plan_ui": "体验版",
+  "credits_before": 511.2,
+  "credits_source": "CUA AX account menu actual balance",
+  "test_input": "/Users/USER/Desktop/周报测试/销售数据_示例.xlsx",
+  "test_started": false,
+  "recording_method": "native macOS screencapture",
+  "full_desktop_validation": "EXCLUDED: captured unrelated foreground; do not deliver or inspect further",
+  "recording_safe_scope_validation": "pending"
+}

@@ -1,0 +1,29 @@
+{
+  "verified_utc": "2026-10-16T02:01:30.499876+00:00",
+  "method": "macOS /usr/sbin/screencapture -v -V 1800 -l 26913 -k; noninteractive single WorkBuddy window; no interactive toolbar required",
+  "recording_session": 77337,
+  "session_final_exit_code": 0,
+  "recording_stopped_confirmed": true,
+  "target_file": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/raw/02-workbuddy-test-original.mov",
+  "bytes": 430457669,
+  "modified_utc": "2026-10-16T01:58:05.333355+00:00",
+  "creation_time_metadata": "2026-10-16T01:28:05.000000Z",
+  "duration_seconds": 1800.016667,
+  "width": 1486,
+  "height": 946,
+  "codec": "h264",
+  "audio_streams": 0,
+  "sha256": "15e1667c32f3afb760e830071baaf9fca0bc4a0889684b20e399e6177679facb",
+  "full_video_decode_exit_code": 0,
+  "full_decode_log_bytes": 1291216,
+  "known_current_workbuddy_ai_tasks": "none; completed response and disabled Send observed; no new prompt after Q3",
+  "roughcut": "NOT_RENDERED; parent requested immediate handoff",
+  "mobile_preview": "NOT_PERFORMED",
+  "approval_manager_id": "manager:19d31426f2da4d5e846ab340d6176693:3",
+  "approval_manager_mapping_and_status": "UNKNOWN: execution side cannot inspect approval queue; no new requests submitted",
+  "decode_log_summary": {
+    "lines": 10692,
+    "non_monotonic_dts_lines": 10692,
+    "other_lines_sample": []
+  }
+}

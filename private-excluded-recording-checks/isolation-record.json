@@ -1,0 +1,22 @@
+[
+  {
+    "original": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/raw/recording-check.mov",
+    "isolated_path": "/Users/USER/Documents/Codex/2026-10-15/task-2/private-excluded-recording-checks/recording-check.mov",
+    "reason": "Unrelated foreground captured during validation; excluded from delivery; not deleted"
+  },
+  {
+    "original": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/raw/recording-check-workbuddy.mov",
+    "isolated_path": "/Users/USER/Documents/Codex/2026-10-15/task-2/private-excluded-recording-checks/recording-check-workbuddy.mov",
+    "reason": "Unrelated foreground captured during validation; excluded from delivery; not deleted"
+  },
+  {
+    "original": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/evidence/recording-check-frame.png",
+    "isolated_path": "/Users/USER/Documents/Codex/2026-10-15/task-2/private-excluded-recording-checks/recording-check-frame.png",
+    "reason": "Unrelated foreground captured during validation; excluded from delivery; not deleted"
+  },
+  {
+    "original": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/evidence/recording-check-workbuddy-frame.png",
+    "isolated_path": "/Users/USER/Documents/Codex/2026-10-15/task-2/private-excluded-recording-checks/recording-check-workbuddy-frame.png",
+    "reason": "Unrelated foreground captured during validation; excluded from delivery; not deleted"
+  }
+]

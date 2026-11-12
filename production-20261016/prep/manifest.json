@@ -1,0 +1,36 @@
+{
+  "created_at_utc": "2026-10-16T01:13:35.701368+00:00",
+  "files": [
+    {
+      "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/prep/README.md",
+      "bytes": 1420,
+      "sha256": "2ec3fb2d0ad160d4bc66581f088dccfc6dea3604660c03f9e5c5c0e69339cdbb"
+    },
+    {
+      "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/prep/edit-plan.md",
+      "bytes": 5551,
+      "sha256": "371f39e5c633c777ac9f24f3893944834a8eb11bddb7afa96107bddba65d1a88"
+    },
+    {
+      "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/prep/script-search-evidence.json",
+      "bytes": 6902,
+      "sha256": "bf46cbb33c39fdf20ddf5bbf2e9464b599f4eb1f7d84e19c8eba7e1553403abb"
+    },
+    {
+      "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/prep/shot-log-template.csv",
+      "bytes": 929,
+      "sha256": "7764fc610bb2bac61e5a18142b680f63c6d273fe4e444f15c436ae8f819b4a12"
+    },
+    {
+      "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/prep/slack-thread-evidence.json",
+      "bytes": 8206,
+      "sha256": "2a6ca51908d8b63d83fc8236a0df164d2999c2e50815cd4fde0e5d2bff521add"
+    },
+    {
+      "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/prep/tool-capability.json",
+      "bytes": 5421,
+      "sha256": "1d4f10b2026008fbbcc37bcf93e77909aa35907f479d97a31cc2fe28823b7925"
+    }
+  ],
+  "status": "PREP_COMPLETE_PENDING_REAL_FOOTAGE"
+}

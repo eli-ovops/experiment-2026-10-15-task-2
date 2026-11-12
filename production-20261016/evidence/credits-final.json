@@ -1,0 +1,10 @@
+{
+  "before": 511.2,
+  "after": 500.68,
+  "debit": 10.52,
+  "Q1_ui_cost": 3.99,
+  "Q2_cancelled_ui_cost": 2.32,
+  "Q3_local_remedy_ui_cost": 4.21,
+  "sum_matches": true,
+  "after_observed_utc": "2026-10-16T01:50:03.171Z"
+}

@@ -1,0 +1,79 @@
+{
+  "checked_at_utc": "2026-10-16T01:12:05.782682+00:00",
+  "scope": "Independent file preparation only; no WorkBuddy, capture, or AI task executed",
+  "tools": {
+    "ffmpeg": {
+      "path": "/Users/USER/.local/bin/ffmpeg",
+      "returncode": 0,
+      "version": [
+        "ffmpeg version 6.0 Copyright (c) 2000-2023 the FFmpeg developers"
+      ],
+      "stderr": ""
+    },
+    "ffprobe_path": {
+      "path": "/Users/USER/.local/bin/ffprobe",
+      "error": "[Errno 86] Bad CPU type in executable: '/Users/USER/.local/bin/ffprobe'"
+    },
+    "ffprobe_existing_remotion": {
+      "path": "/Volumes/EXTERNAL/自媒体/motion-sample-20261012/v3-remotion/node_modules/@remotion/compositor-darwin-arm64/ffprobe",
+      "returncode": -6,
+      "version": [],
+      "stderr": "dyld[48349]: Library not loaded: libavdevice.dylib\n  Referenced from: <AD2E933B-8D72-3417-A0F1-EFB5A765C569> /Volumes/EXTERNAL/自媒体/motion-sample-20261012/v3-remotion/node_modules/@remotion/compositor-darwin-arm64/ffprobe\n  Reason: tried: 'libavdevice.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibavdevice.dylib' (no such file), 'libavdevice.dylib' (no such file), '/Users/USER/Documents/Codex/2026-10-15/task-2/libavdevice.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/USER/Documents/Codex/2026-10-15/task-2/libavdevice.dylib' (no such file), '/Users/USER/Documents/Codex/2026-10-15/task-2/libavdevice.dylib' (no such file)\n"
+    },
+    "ffprobe_existing_remotion_with_bundle_cwd": {
+      "path": "/Volumes/EXTERNAL/自媒体/motion-sample-20261012/v3-remotion/node_modules/@remotion/compositor-darwin-arm64/ffprobe",
+      "cwd": "/Volumes/EXTERNAL/自媒体/motion-sample-20261012/v3-remotion/node_modules/@remotion/compositor-darwin-arm64",
+      "returncode": 0,
+      "version": [
+        "ffprobe version n7.1 Copyright (c) 2007-2024 the FFmpeg developers"
+      ],
+      "reason": "Bundled shared libraries resolve when process cwd is its existing binary directory; no software installed and no global configuration changed."
+    }
+  },
+  "encoders": [
+    " V....D libx264              libx264 H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10 (codec h264)",
+    " V....D libx264rgb           libx264 H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10 RGB (codec h264)",
+    " V....D h264_videotoolbox    VideoToolbox H.264 Encoder (codec h264)"
+  ],
+  "filters": [
+    " ..C crop              V->V       Crop the input video.",
+    " T.C cropdetect        V->V       Auto-detect crop size.",
+    " T.C drawbox           V->V       Draw a colored box on the input video.",
+    " T.C drawtext          V->V       Draw text on top of video frames using libfreetype library.",
+    " ... fps               V->V       Force constant framerate.",
+    " .S. hstack            N->V       Stack video inputs horizontally.",
+    " ... pad               V->V       Pad the input video.",
+    " ..C scale             V->V       Scale the input video size and/or convert the image format.",
+    " ... setpts            V->V       Set PTS for the output video frame.",
+    " ... tpad              V->V       Temporarily pad video frames.",
+    " .S. vstack            N->V       Stack video inputs vertically."
+  ],
+  "1080x1920_encode_null_test": {
+    "command": [
+      "/Users/USER/.local/bin/ffmpeg",
+      "-hide_banner",
+      "-v",
+      "info",
+      "-f",
+      "lavfi",
+      "-i",
+      "color=c=gray:s=1920x1080:r=30",
+      "-t",
+      "0.5",
+      "-vf",
+      "crop=608:1080:656:0,scale=1080:1920,setsar=1,format=yuv420p",
+      "-an",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "ultrafast",
+      "-f",
+      "null",
+      "-"
+    ],
+    "returncode": 0,
+    "log": "Input #0, lavfi, from 'color=c=gray:s=1920x1080:r=30':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #0:0: Video: wrapped_avframe, yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], 30 fps, 30 tbr, 30 tbn\nStream mapping:\n  Stream #0:0 -> #0:0 (wrapped_avframe (native) -> h264 (libx264))\nPress [q] to stop, [?] for help\n[libx264 @ 0x11da070b0] using SAR=1/1\n[libx264 @ 0x11da070b0] using cpu capabilities: ARMv8 NEON\n[libx264 @ 0x11da070b0] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit\nOutput #0, null, to 'pipe:':\n  Metadata:\n    encoder         : Lavf60.3.100\n  Stream #0:0: Video: h264, yuv420p(tv, progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 30 fps, 30 tbn\n    Metadata:\n      encoder         : Lavc60.3.100 libx264\n    Side data:\n      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A\nframe=    0 fps=0.0 q=0.0 size=       0kB time=-577014:32:22.77 bitrate=  -0.0kbits/s speed=N/A    \nframe=   15 fps=0.0 q=-1.0 Lsize=N/A time=00:00:00.46 bitrate=N/A speed=13.8x    \nvideo:7kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown\n[libx264 @ 0x11da070b0] frame I:1     Avg QP:20.00  size:  6783\n[libx264 @ 0x11da070b0] frame P:14    Avg QP:13.14  size:    12\n[libx264 @ 0x11da070b0] mb I  I16..4: 100.0%  0.0%  0.0%\n[libx264 @ 0x11da070b0] mb P  I16..4:  0.0%  0.0%  0.0%  P16..4:  0.0%  0.0%  0.0%  0.0%  0.0%    skip:100.0%\n[libx264 @ 0x11da070b0] coded y,uvDC,uvAC intra: 0.0% 0.0% 0.0% inter: 0.0% 0.0% 0.0%\n[libx264 @ 0x11da070b0] i16 v,h,dc,p: 99%  0%  1%  0%\n[libx264 @ 0x11da070b0] i8c dc,h,v,p: 100%  0%  0%  0%\n[libx264 @ 0x11da070b0] kb/s:111.22\n",
+    "synthetic_calibration_only": true,
+    "video_file_created": false
+  }
+}

@@ -1,0 +1,1 @@
+installation-20261016/extracted/WorkBuddy.app: internal error in Code Signing subsystem

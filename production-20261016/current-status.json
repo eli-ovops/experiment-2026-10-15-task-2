@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-16T02:02:17.042474+00:00",
+  "recording_stopped": true,
+  "recording_saved": true,
+  "original_path": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/raw/02-workbuddy-test-original.mov",
+  "duration_seconds": 1800.016667,
+  "decode_exit": 0,
+  "decode_warning": "VFR non-monotonic DTS warnings in null muxer; explicit CFR conversion planned for roughcut",
+  "workbuddy_ai_running": false,
+  "html_original": "/Users/USER/Desktop/周报测试/销售周报_2026-10-12.html",
+  "xlsx_unchanged": true,
+  "credits": "511.2 -> 500.68, debit10.52",
+  "Q1": "89s UI /3.99, main numeric checks pass",
+  "Q2": "cancelled /63s UI /2.32",
+  "Q3": "local-only remedy complete /157s UI /4.21",
+  "roughcut": "NOT_RENDERED; no render started before latest pause",
+  "mobile_chrome": "NOT_PERFORMED; no additional test",
+  "new_approval_requests": "PAUSED",
+  "pending_manager_mapping_status": "UNKNOWN",
+  "handoff": "PAUSED_USER_REQUEST_ORIGINAL_PMO_COORDINATION",
+  "handoff_updated_utc": "2026-10-16T02:07:35.315484+00:00",
+  "next_step": "Parent identifies original PMO; do not contact threads/Bots or resume creative work"
+}

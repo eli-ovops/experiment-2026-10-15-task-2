@@ -1,0 +1,221 @@
+{
+  "displays" : [
+    {
+      "height" : 1440,
+      "id" : 3,
+      "index" : 1,
+      "width" : 2560,
+      "x" : 0,
+      "y" : 0
+    }
+  ],
+  "workbuddy_windows" : [
+    {
+      "kCGWindowAlpha" : 1,
+      "kCGWindowBounds" : {
+        "Height" : 30,
+        "Width" : 2560,
+        "X" : 0,
+        "Y" : 0
+      },
+      "kCGWindowLayer" : 0,
+      "kCGWindowMemoryUsage" : 2432,
+      "kCGWindowName" : "",
+      "kCGWindowNumber" : 26917,
+      "kCGWindowOwnerName" : "WorkBuddy 文件浏览器",
+      "kCGWindowOwnerPID" : 52471,
+      "kCGWindowSharingState" : 1,
+      "kCGWindowStoreType" : 1
+    },
+    {
+      "kCGWindowAlpha" : 1,
+      "kCGWindowBounds" : {
+        "Height" : 30,
+        "Width" : 2560,
+        "X" : 0,
+        "Y" : 0
+      },
+      "kCGWindowLayer" : 0,
+      "kCGWindowMemoryUsage" : 2432,
+      "kCGWindowName" : "",
+      "kCGWindowNumber" : 26916,
+      "kCGWindowOwnerName" : "WorkBuddy 文件浏览器",
+      "kCGWindowOwnerPID" : 52471,
+      "kCGWindowSharingState" : 1,
+      "kCGWindowStoreType" : 1
+    },
+    {
+      "kCGWindowAlpha" : 1,
+      "kCGWindowBounds" : {
+        "Height" : 30,
+        "Width" : 2560,
+        "X" : 0,
+        "Y" : 0
+      },
+      "kCGWindowLayer" : 0,
+      "kCGWindowMemoryUsage" : 2432,
+      "kCGWindowName" : "",
+      "kCGWindowNumber" : 26914,
+      "kCGWindowOwnerName" : "WorkBuddy 文件浏览器",
+      "kCGWindowOwnerPID" : 52471,
+      "kCGWindowSharingState" : 1,
+      "kCGWindowStoreType" : 1
+    },
+    {
+      "kCGWindowAlpha" : 1,
+      "kCGWindowBounds" : {
+        "Height" : 900,
+        "Width" : 1440,
+        "X" : 560,
+        "Y" : 130
+      },
+      "kCGWindowIsOnscreen" : true,
+      "kCGWindowLayer" : 0,
+      "kCGWindowMemoryUsage" : 2432,
+      "kCGWindowName" : "WorkBuddy",
+      "kCGWindowNumber" : 26913,
+      "kCGWindowOwnerName" : "WorkBuddy 文件浏览器",
+      "kCGWindowOwnerPID" : 52471,
+      "kCGWindowSharingState" : 1,
+      "kCGWindowStoreType" : 1
+    },
+    {
+      "kCGWindowAlpha" : 1,
+      "kCGWindowBounds" : {
+        "Height" : 436,
+        "Width" : 920,
+        "X" : 820,
+        "Y" : 246
+      },
+      "kCGWindowIsOnscreen" : true,
+      "kCGWindowLayer" : 0,
+      "kCGWindowMemoryUsage" : 2432,
+      "kCGWindowName" : "周报测试",
+      "kCGWindowNumber" : 26768,
+      "kCGWindowOwnerName" : "访达",
+      "kCGWindowOwnerPID" : 688,
+      "kCGWindowSharingState" : 1,
+      "kCGWindowStoreType" : 1
+    },
+    {
+      "kCGWindowAlpha" : 1,
+      "kCGWindowBounds" : {
+        "Height" : 900,
+        "Width" : 1440,
+        "X" : 560,
+        "Y" : 229
+      },
+      "kCGWindowIsOnscreen" : true,
+      "kCGWindowLayer" : 0,
+      "kCGWindowMemoryUsage" : 2432,
+      "kCGWindowName" : "WorkBuddy",
+      "kCGWindowNumber" : 26511,
+      "kCGWindowOwnerName" : "WorkBuddy",
+      "kCGWindowOwnerPID" : 43700,
+      "kCGWindowSharingState" : 1,
+      "kCGWindowStoreType" : 1
+    },
+    {
+      "kCGWindowAlpha" : 1,
+      "kCGWindowBounds" : {
+        "Height" : 30,
+        "Width" : 2560,
+        "X" : 0,
+        "Y" : 0
+      },
+      "kCGWindowLayer" : 0,
+      "kCGWindowMemoryUsage" : 2432,
+      "kCGWindowName" : "",
+      "kCGWindowNumber" : 26508,
+      "kCGWindowOwnerName" : "WorkBuddy",
+      "kCGWindowOwnerPID" : 43700,
+      "kCGWindowSharingState" : 1,
+      "kCGWindowStoreType" : 1
+    },
+    {
+      "kCGWindowAlpha" : 1,
+      "kCGWindowBounds" : {
+        "Height" : 30,
+        "Width" : 2560,
+        "X" : 0,
+        "Y" : 0
+      },
+      "kCGWindowLayer" : 0,
+      "kCGWindowMemoryUsage" : 2432,
+      "kCGWindowName" : "",
+      "kCGWindowNumber" : 26507,
+      "kCGWindowOwnerName" : "WorkBuddy",
+      "kCGWindowOwnerPID" : 43700,
+      "kCGWindowSharingState" : 1,
+      "kCGWindowStoreType" : 1
+    },
+    {
+      "kCGWindowAlpha" : 1,
+      "kCGWindowBounds" : {
+        "Height" : 30,
+        "Width" : 2560,
+        "X" : 0,
+        "Y" : 0
+      },
+      "kCGWindowLayer" : 0,
+      "kCGWindowMemoryUsage" : 2432,
+      "kCGWindowName" : "",
+      "kCGWindowNumber" : 26505,
+      "kCGWindowOwnerName" : "WorkBuddy",
+      "kCGWindowOwnerPID" : 43700,
+      "kCGWindowSharingState" : 1,
+      "kCGWindowStoreType" : 1
+    },
+    {
+      "kCGWindowAlpha" : 1,
+      "kCGWindowBounds" : {
+        "Height" : 30,
+        "Width" : 2560,
+        "X" : 0,
+        "Y" : 0
+      },
+      "kCGWindowLayer" : 0,
+      "kCGWindowMemoryUsage" : 2432,
+      "kCGWindowName" : "",
+      "kCGWindowNumber" : 26915,
+      "kCGWindowOwnerName" : "WorkBuddy 文件浏览器",
+      "kCGWindowOwnerPID" : 52471,
+      "kCGWindowSharingState" : 1,
+      "kCGWindowStoreType" : 1
+    },
+    {
+      "kCGWindowAlpha" : 1,
+      "kCGWindowBounds" : {
+        "Height" : 30,
+        "Width" : 2560,
+        "X" : 0,
+        "Y" : 0
+      },
+      "kCGWindowLayer" : 0,
+      "kCGWindowMemoryUsage" : 2432,
+      "kCGWindowName" : "",
+      "kCGWindowNumber" : 26506,
+      "kCGWindowOwnerName" : "WorkBuddy",
+      "kCGWindowOwnerPID" : 43700,
+      "kCGWindowSharingState" : 1,
+      "kCGWindowStoreType" : 1
+    },
+    {
+      "kCGWindowAlpha" : 1,
+      "kCGWindowBounds" : {
+        "Height" : 500,
+        "Width" : 500,
+        "X" : 0,
+        "Y" : 940
+      },
+      "kCGWindowLayer" : 0,
+      "kCGWindowMemoryUsage" : 2432,
+      "kCGWindowName" : "",
+      "kCGWindowNumber" : 26580,
+      "kCGWindowOwnerName" : "WorkBuddy",
+      "kCGWindowOwnerPID" : 43700,
+      "kCGWindowSharingState" : 1,
+      "kCGWindowStoreType" : 1
+    }
+  ]
+}

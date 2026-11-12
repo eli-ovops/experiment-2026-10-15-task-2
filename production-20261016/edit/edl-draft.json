@@ -1,0 +1,20 @@
+{
+  "status": "DRAFT_WAIT_FINALIZED_SOURCE_AND_FRAME_REVIEW",
+  "finalized_source": {"path": null, "creation_time_utc": null, "confirmed_finalized": false},
+  "timing_verified": false,
+  "crops_verified": false,
+  "output": {"width": 1080, "height": 1920, "fps": 30, "codec": "libx264", "audio": false, "duration_s": 35},
+  "excluded_shots": {"S1": "Finder原片丢失；不可补造", "S8": "依用户边界跳过微信/私信"},
+  "excluded_sources": ["recording-check.mov", "recording-check-workbuddy.mov", "01-finder-open-original.mov"],
+  "voiceover_status": "缺口播稿，未按段落对位；无配音无BGM",
+  "shots": [
+    {"id":"S2", "duration_s":3, "mode":"office", "label":"编辑标签｜表格与 Buddy 对话", "note":"实测窗口全景；源片确认后选画面", "segments":[{"wallclock_start_utc":"2026-10-16T01:28:25Z","duration_s":3,"crop":null}]},
+    {"id":"S3", "duration_s":3, "mode":"office", "label":"编辑标签｜第一问 · 原文提交", "note":"分析各区域本周销售，找出下滑最大的区域", "segments":[{"wallclock_start_utc":"2026-10-16T01:28:35Z","duration_s":3,"crop":null}]},
+    {"id":"S4", "duration_s":6, "mode":"office", "label":"编辑标签｜真实结论与区域对比", "note":"画面来自稍后复看；不是首问完成时刻", "segments":[{"wallclock_start_utc":"2026-10-16T01:52:59.510Z","duration_s":6,"crop":null}]},
+    {"id":"S5", "duration_s":6, "mode":"office", "label":"编辑标签｜原第二问被中止", "note":"拟 import / publish；未按原第二问完成", "segments":[{"wallclock_start_utc":"2026-10-16T01:31:32Z","duration_s":2,"crop":null},{"wallclock_start_utc":"2026-10-16T01:32:34.5Z","duration_s":4,"crop":null}]},
+    {"id":"S6", "duration_s":3, "mode":"office", "label":"编辑标签｜Q3 补救 · 仅本地 HTML", "note":"本地路径回复；不是原 Q2 一次成功", "segments":[{"wallclock_start_utc":"2026-10-16T01:50:20Z","duration_s":3,"crop":null}]},
+    {"id":"S7", "duration_s":6, "mode":"office", "label":"编辑标签｜电脑 HTML 预览", "note":"手机适配未实际预览；不冒充手机画面", "segments":[{"wallclock_start_utc":"2026-10-16T01:36:00Z","duration_s":6,"crop":null}]},
+    {"id":"S9", "duration_s":4, "mode":"credits", "label":"编辑标签｜本次三次调用积分", "note":"511.20 → 500.68；合计消耗 10.52", "before_path":"../evidence/credits-before-and-version.png", "before_crop":[224,398,138,58], "segments":[{"wallclock_start_utc":"2026-10-16T01:50:03.171Z","duration_s":4,"crop":null}]},
+    {"id":"S10", "duration_s":4, "mode":"editorial_card", "label":"编辑记录｜本次实测限制", "note":"S1 原片丢失；手机未测\nQ2中止后另做Q3；非一次成功\n缺口播稿，未按段落对位", "segments":[]}
+  ]
+}

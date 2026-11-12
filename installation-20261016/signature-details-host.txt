@@ -1,0 +1,31 @@
+Executable=/Users/USER/Documents/Codex/2026-10-15/task-2/installation-20261016/extracted/WorkBuddy.app/Contents/MacOS/Electron
+Identifier=com.tencent.workbuddy.mac
+Format=app bundle with Mach-O thin (arm64)
+CodeDirectory v=20500 size=1829 flags=0x10000(runtime) hashes=46+7 location=embedded
+VersionPlatform=1
+VersionMin=720896
+VersionSDK=984064
+Hash type=sha256 size=32
+CandidateCDHash sha256=5f4fb6287fa5ae699df1e9ea11431a55e22c462a
+CandidateCDHashFull sha256=5f4fb6287fa5ae699df1e9ea11431a55e22c462a0b052c158d24be8815446865
+Hash choices=sha256
+CMSDigest=5f4fb6287fa5ae699df1e9ea11431a55e22c462a0b052c158d24be8815446865
+CMSDigestType=2
+Executable Segment base=0
+Executable Segment limit=147456
+Executable Segment flags=0x1
+Page size=4096
+CDHash=5f4fb6287fa5ae699df1e9ea11431a55e22c462a
+Signature size=9111
+Authority=Developer ID Application: Tencent Technology (Shanghai) Company Limited (FN2V63AD2J)
+Authority=Developer ID Certification Authority
+Authority=Apple Root CA
+Timestamp=Oct 12, 2026 at 20:06:28
+Notarization Ticket=stapled
+Info.plist entries=32
+TeamIdentifier=FN2V63AD2J
+Runtime Version=15.4.0
+Sealed Resources version=2 rules=13 files=4594
+Internal requirements count=1 size=188
+Total signatures=1
+Chosen signature=1

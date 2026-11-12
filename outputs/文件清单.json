@@ -1,0 +1,57 @@
+[
+  {
+    "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/evidence/data-verification.json",
+    "bytes": 1174,
+    "sha256": "6d36792bcd1d9f72069b81215c2486d659b117944a7278d59235a48eaafe5322"
+  },
+  {
+    "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/evidence/environment.json",
+    "bytes": 4460,
+    "sha256": "03b02c9c4d5340aa32230790adaae28ad72a12cd97c66b87b2d203674f748601"
+  },
+  {
+    "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/evidence/slack-source-thread.json",
+    "bytes": 3528,
+    "sha256": "668c17b013b52b71528c9c30745bb70b82ecd5460f9f49801d561b7b0ee1b12a"
+  },
+  {
+    "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/evidence/ui-capability.json",
+    "bytes": 856,
+    "sha256": "36829d95c1c63d72a70cbfdde4017eb790e70e2111d85df5083842eae5532a0a"
+  },
+  {
+    "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/evidence/xlsx-raw-values.json",
+    "bytes": 4626,
+    "sha256": "5168080309897f64d0ae3c59ed901271b9b6dd4ac824ff0adfd83dcd7ba582d7"
+  },
+  {
+    "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/inputs/制作单_Codex.md",
+    "bytes": 6363,
+    "sha256": "8536ff06d8eb5ae182fcaff71fe72d1b26e7d8167710d8ae08fcac1cead8dfc5"
+  },
+  {
+    "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/inputs/销售数据_示例.xlsx",
+    "bytes": 6494,
+    "sha256": "6920b6c3961252c2e3f30fef75fc8cf334d87cf79a2c6ffa44539cd43732f488"
+  },
+  {
+    "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/outputs/交接说明.md",
+    "bytes": 2319,
+    "sha256": "c79c2992dffb402006b0ecad5dbe22a016e10e91a6ffc71025193ca0540ea858"
+  },
+  {
+    "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/outputs/保存回执.json",
+    "bytes": 431,
+    "sha256": "ce6a3a5c78fb5cd76f9b7828d0b55000aa49de1f74d0b352c07327e8c00759f9"
+  },
+  {
+    "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/outputs/结果模板.md",
+    "bytes": 3194,
+    "sha256": "0499cccde7b96cda9bd61d2644098301696147d6ef87216889e63182b6e2a1b8"
+  },
+  {
+    "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/outputs/续测执行卡.md",
+    "bytes": 1863,
+    "sha256": "401c44bd6d013c087e7eb3fba802181a1bb03b7d5871677cb43bc3a3cd552a71"
+  }
+]

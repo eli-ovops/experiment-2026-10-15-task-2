@@ -1,0 +1,35 @@
+{
+  "created_at_utc": "2026-10-16T01:38:50.345137+00:00",
+  "files": [
+    {
+      "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/prep/qa/allowed-window-check-metadata.json",
+      "bytes": 3096,
+      "sha256": "ea069a2b840be88172f229a4b7e70a9d033fd8b5cb8a149b593be34d6a4d07c9"
+    },
+    {
+      "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/prep/qa/html-static-qa.json",
+      "bytes": 6515,
+      "sha256": "51db2547aeea745df1ed88f78efa6061049c27810bef05c4540cd4bae937ef02"
+    },
+    {
+      "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/prep/qa/html-static-qa.md",
+      "bytes": 5468,
+      "sha256": "af0fc9fb806c2006151fef793152b8951594be68f3fffd07124b9ce4dc54031c"
+    },
+    {
+      "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/prep/qa/safe-source-qa.md",
+      "bytes": 3369,
+      "sha256": "51e702d089f9f0741373f9a331dc69a6c422cc0177bab166091cf75c1c1a611b"
+    },
+    {
+      "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/prep/qa/window-check-contact-0-1-2s.png",
+      "bytes": 68974,
+      "sha256": "e9f3ef49658ec3788b3dbfedb9761a4e68a00a913f7081ce6f69a8096f86bc94"
+    },
+    {
+      "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/prep/qa/window-check-safe-t1.png",
+      "bytes": 166276,
+      "sha256": "976fe3a1ae79583e06d916c9d5fc501be7dfbd7e831020ddb74f9e3c6912ae61"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "checked_at_utc": "2026-10-16T01:37:55.653423+00:00",
+  "mode": "STATIC_ONLY_NO_BROWSER_OR_EXTERNAL_REQUESTS",
+  "sources": [
+    {
+      "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/exports/销售周报_2026-10-12.html",
+      "sha256": "8c71c554ee218467f37320734b3b7cee3647d77282565720ac26a864cb68d448",
+      "bytes": 23162
+    },
+    {
+      "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/production-20261016/evidence/Q1-answer-transcript.md",
+      "sha256": "08c4c7832440e27c109410fbe68562af364a76f2fbe0202c9ea411b36edac33d",
+      "bytes": 2244
+    },
+    {
+      "path": "/Users/USER/Documents/Codex/2026-10-15/task-2/inputs/销售数据_示例.xlsx",
+      "sha256": "6920b6c3961252c2e3f30fef75fc8cf334d87cf79a2c6ffa44539cd43732f488",
+      "bytes": 6494
+    }
+  ],
+  "region_checks": [
+    {
+      "item": "region 华东",
+      "expected": [
+        56185,
+        59979,
+        3794,
+        6.75,
+        6
+      ],
+      "html": [
+        56185.0,
+        59979.0,
+        3794.0,
+        6.75,
+        6.0
+      ],
+      "matches": true
+    },
+    {
+      "item": "region 华北",
+      "expected": [
+        45305,
+        25844,
+        -19461,
+        -42.96,
+        -39
+      ],
+      "html": [
+        45305.0,
+        25844.0,
+        -19461.0,
+        -42.96,
+        -39.0
+      ],
+      "matches": true
+    },
+    {
+      "item": "region 华南",
+      "expected": [
+        50197,
+        52292,
+        2095,
+        4.17,
+        5
+      ],
+      "html": [
+        50197.0,
+        52292.0,
+        2095.0,
+        4.17,
+        5.0
+      ],
+      "matches": true
+    },
+    {
+      "item": "region 西南",
+      "expected": [
+        31932,
+        33528,
+        1596,
+        5.0,
+        4
+      ],
+      "html": [
+        31932.0,
+        33528.0,
+        1596.0,
+        5.0,
+        4.0
+      ],
+      "matches": true
+    },
+    {
+      "item": "region 合计",
+      "expected": [
+        183619,
+        171643,
+        -11976,
+        -6.52,
+        -24
+      ],
+      "html": [
+        183619.0,
+        171643.0,
+        -11976.0,
+        -6.52,
+        -24.0
+      ],
+      "matches": true
+    }
+  ],
+  "huabei_product_checks": [
+    {
+      "product": "扫地机器人R5",
+      "expected_amount_change_previous_current_qty_previous_current": [
+        -5997,
+        11994,
+        5997,
+        6,
+        3
+      ],
+      "html": [
+        -5997.0,
+        11994.0,
+        5997.0,
+        6.0,
+        3.0
+      ],
+      "expected_pct": -50.0,
+      "html_pct": -50.0,
+      "matches": true
+    },
+    {
+      "product": "无线耳机E2",
+      "expected_amount_change_previous_current_qty_previous_current": [
+        -3992,
+        9980,
+        5988,
+        20,
+        12
+      ],
+      "html": [
+        -3992.0,
+        9980.0,
+        5988.0,
+        20.0,
+        12.0
+      ],
+      "expected_pct": -40.0,
+      "html_pct": -40.0,
+      "matches": true
+    },
+    {
+      "product": "空气净化器P3",
+      "expected_amount_change_previous_current_qty_previous_current": [
+        -3596,
+        8990,
+        5394,
+        10,
+        6
+      ],
+      "html": [
+        -3596.0,
+        8990.0,
+        5394.0,
+        10.0,
+        6.0
+      ],
+      "expected_pct": -40.0,
+      "html_pct": -40.0,
+      "matches": true
+    },
+    {
+      "product": "智能音箱A1",
+      "expected_amount_change_previous_current_qty_previous_current": [
+        -3289,
+        7774,
+        4485,
+        26,
+        15
+      ],
+      "html": [
+        -3289.0,
+        7774.0,
+        4485.0,
+        26.0,
+        15.0
+      ],
+      "expected_pct": -42.31,
+      "html_pct": -42.31,
+      "matches": true
+    },
+    {
+      "product": "电动牙刷T1",
+      "expected_amount_change_previous_current_qty_previous_current": [
+        -2587,
+        6567,
+        3980,
+        33,
+        20
+      ],
+      "html": [
+        -2587.0,
+        6567.0,
+        3980.0,
+        33.0,
+        20.0
+      ],
+      "expected_pct": -39.39,
+      "html_pct": -39.39,
+      "matches": true
+    }
+  ],
+  "all_numeric_checks_pass": true,
+  "metric_html": [
+    {
+      "label": "本周销售额",
+      "display": "171,643元"
+    },
+    {
+      "label": "本周销量",
+      "display": "357件"
+    },
+    {
+      "label": "下滑区域数",
+      "display": "1个"
+    }
+  ],
+  "totals_from_xlsx": {
+    "amount_previous": 183619,
+    "amount_current": 171643,
+    "qty_previous": 381,
+    "qty_current": 357
+  },
+  "data_quality_independent": {
+    "row_count": 40,
+    "unique_date_region_combinations": 40,
+    "full_duplicate_rows": 0,
+    "min_qty": 3,
+    "all_positive": true,
+    "unit_prices": {
+      "扫地机器人R5": [
+        "1999"
+      ],
+      "无线耳机E2": [
+        "499"
+      ],
+      "智能音箱A1": [
+        "299"
+      ],
+      "电动牙刷T1": [
+        "199"
+      ],
+      "空气净化器P3": [
+        "899"
+      ]
+    },
+    "unchanged_region_product_cross_week": [
+      {
+        "region": "西南",
+        "product": "无线耳机E2",
+        "qty": 15,
+        "amount": 7485
+      },
+      {
+        "region": "华东",
+        "product": "空气净化器P3",
+        "qty": 12,
+        "amount": 10788
+      },
+      {
+        "region": "西南",
+        "product": "扫地机器人R5",
+        "qty": 4,
+        "amount": 7996
+      },
+      {
+        "region": "华南",
+        "product": "扫地机器人R5",
+        "qty": 7,
+        "amount": 13993
+      }
+    ]
+  },
+  "external_stylesheets": [
+    {
+      "rel": "stylesheet",
+      "href": "https://cdn.jsdelivr.net/npm/@fontsource/plus-jakarta-sans@5.2.5/700.css"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc@5.3.0/chinese-simplified-700.css"
+    }
+  ],
+  "script_attributes": [
+    {}
+  ],
+  "viewport": [
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1, viewport-fit=cover"
+    }
+  ],
+  "stylesheet_media_queries": [
+    "@media (min-width:641px)",
+    "@media (max-width:640px)",
+    "@media (prefers-reduced-motion:reduce)"
+  ],
+  "q1_comparison": "region summary and Huabei product amounts/deltas match Q1 transcript; Q1 minified table gives same two-decimal rates",
+  "limitations": [
+    "No live device render or measurements",
+    "No external links visited or loaded",
+    "No script executed",
+    "HTML is Q3 local recovery output; not proof initial Q2 finished",
+    "No source HTML modification"
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "event": "T0_actual_open_with",
+    "utc": "2026-10-16T01:20:42.321Z",
+    "source": "CUA timestamp immediately before successful Finder File>Open With>WorkBuddy click",
+    "note": "Right-click menu showed WorkBuddy; repeated transient menu failures then standard File-menu route. Browser createdAt=1792113642384 confirms open."
+  },
+  {
+    "event": "tool_delay_get_office_window",
+    "seconds": 399.7968,
+    "note": "CUA getApp call latency before AI prompts; included in gross T1−T0, separately disclosed"
+  },
+  {
+    "event": "Q1_submit",
+    "utc": "2026-10-16T01:28:37.222Z",
+    "prompt": "分析各区域本周销售，找出下滑最大的区域",
+    "source": "CUA before Return; confirmed user message in right Buddy panel"
+  },
+  {
+    "event": "T1_completion_observed",
+    "utc": "2026-10-16T01:30:36.252Z",
+    "ui_elapsed_seconds": 89,
+    "ui_cost": 3.99,
+    "note": "Observed completion timestamp; precise visual completion to verify from original video when finalized"
+  },
+  {
+    "event": "Q2_submit",
+    "utc": "2026-10-16T01:31:33.224Z",
+    "prompt": "做成网页版周报，老板手机能看"
+  },
+  {
+    "event": "Q2_cancelled_before_import_publish",
+    "utc": "2026-10-16T01:32:36.288Z",
+    "ui_elapsed_seconds": 63,
+    "ui_cost": 2.32,
+    "reason": "Visible plan included import and publish; no such tool execution observed before stop"
+  },
+  {
+    "event": "Q3_local_constraint_submit",
+    "utc": "2026-10-16T01:32:57.229Z",
+    "prompt": "不要上传、导入云端或发布。只生成一个手机适配的HTML文件，保存在当前Excel所在文件夹“周报测试”中，保留原表不修改。请继续完成本地版本。",
+    "note": "Separate remedial attempt; original second prompt result remains cancelled, not replaced"
+  },
+  {
+    "event": "Q3_completion_observed",
+    "utc": "2026-10-16T01:35:55.479Z",
+    "ui_elapsed_seconds": 157,
+    "ui_cost": 4.21
+  },
+  {
+    "event": "credits_after_observed",
+    "utc": "2026-10-16T01:50:03.171Z",
+    "credits_after": 500.68,
+    "credits_before": 511.2,
+    "total_debit": 10.52,
+    "ui_task_cost_sum": 10.52
+  }
+]

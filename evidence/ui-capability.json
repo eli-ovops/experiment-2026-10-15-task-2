@@ -1,0 +1,12 @@
+{
+  "finder_ax": "SUCCESS: Desktop, com.apple.finder; desktop images and menu bar returned",
+  "finder_screenshot": "SUCCESS: 2560x1440 screenshot returned in CUA tool result; not saved as a local file",
+  "screenshot_app_request": "/System/Applications/Utilities/Screenshot.app",
+  "screenshot_app_result": "Computer Use server error -10005: timeoutReached",
+  "screenshot_app_wall_seconds": 401.8471,
+  "recording_started": false,
+  "recording_capability": "UNVERIFIED",
+  "workbuddy_ui": "NOT_OPENED: application not found in checked installation directories",
+  "approvals": "Slack file download sandbox escalation approved and completed; no pending local tool approval observed",
+  "parent_status_report": "FAILED: send_message_to_thread source 01a11851-947d-76d1-9858-3b5dc56080cf returned thread not found; final response remains handoff channel"
+}

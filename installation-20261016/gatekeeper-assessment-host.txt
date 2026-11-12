@@ -1,0 +1,2 @@
+/Users/USER/Documents/Codex/2026-10-15/task-2/installation-20261016/extracted/WorkBuddy.app: accepted
+source=Notarized Developer ID

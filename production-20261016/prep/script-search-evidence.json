@@ -1,0 +1,109 @@
+{
+  "checked_at_utc": "2026-10-16T01:13:20.886572+00:00",
+  "project_root": "/Volumes/EXTERNAL/自媒体",
+  "text_scope": {
+    "extensions": [
+      ".md",
+      ".txt",
+      ".json"
+    ],
+    "excluded_subtrees": [
+      "node_modules",
+      "installation-20261016",
+      "upstream",
+      ".git",
+      "sources",
+      "data"
+    ],
+    "query": "workbuddy (case insensitive)",
+    "returncode": 0,
+    "matching_file_paths": [
+      "/Volumes/EXTERNAL/自媒体/workbuddy-test-20261015/inputs/制作单_Codex.md",
+      "/Volumes/EXTERNAL/自媒体/workbuddy-test-20261015/outputs/交接说明.md",
+      "/Volumes/EXTERNAL/自媒体/workbuddy-test-20261015/evidence/environment.json",
+      "/Volumes/EXTERNAL/自媒体/workbuddy-test-20261015/outputs/结果模板.md",
+      "/Volumes/EXTERNAL/自媒体/workbuddy-test-20261015/evidence/ui-capability.json",
+      "/Volumes/EXTERNAL/自媒体/workbuddy-test-20261015/outputs/续测执行卡.md",
+      "/Volumes/EXTERNAL/自媒体/workbuddy-test-20261015/outputs/文件清单.json",
+      "/Volumes/EXTERNAL/自媒体/workbuddy-test-20261015/outputs/保存回执.json",
+      "/Volumes/EXTERNAL/自媒体/workbuddy-test-20261015/evidence/slack-source-thread.json",
+      "/Volumes/EXTERNAL/自媒体/AGENTS.md",
+      "/Volumes/EXTERNAL/自媒体/动效参考对比-20261012/浏览器原始回执.json",
+      "/Volumes/EXTERNAL/自媒体/交接包/自媒体运营迁移-Grok-20261015/01-项目与表达偏好.md",
+      "/Volumes/EXTERNAL/自媒体/动效参考对比-20261012/西瓜同学-20261013/作者方法-初核.md",
+      "/Volumes/EXTERNAL/自媒体/动效参考对比-20261012/西瓜同学-20261013/逐片覆盖.json",
+      "/Volumes/EXTERNAL/自媒体/动效参考对比-20261012/近期两账号-20261013/逐项覆盖.json",
+      "/Volumes/EXTERNAL/自媒体/AI博主1000视频研究-20261007/指定5账号近两月-20261009/内容卡/7681317814326741937.md",
+      "/Volumes/EXTERNAL/自媒体/AI博主1000视频研究-20261007/指定5账号近两月-20261009/内容卡/7692077922089225510.md",
+      "/Volumes/EXTERNAL/自媒体/AI博主1000视频研究-20261007/指定5账号近两月-20261009/内容卡/7687618348523228422.md",
+      "/Volumes/EXTERNAL/自媒体/AI博主1000视频研究-20261007/指定5账号近两月-20261009/账号2-可见目录.json",
+      "/Volumes/EXTERNAL/自媒体/AI博主1000视频研究-20261007/30账号内容地图-20261008/当前主页目录汇总.json",
+      "/Volumes/EXTERNAL/自媒体/AI博主1000视频研究-20261007/指定5账号近两月-20261009/续接原始回执.json",
+      "/Volumes/EXTERNAL/自媒体/AI博主1000视频研究-20261007/指定5账号近两月-20261009/原始回执.json",
+      "/Volumes/EXTERNAL/自媒体/AI博主1000视频研究-20261007/30账号内容地图-20261008/日期补齐基线-20261009.json",
+      "/Volumes/EXTERNAL/自媒体/AI博主1000视频研究-20261007/30账号内容地图-20261008/账号判断.json",
+      "/Volumes/EXTERNAL/自媒体/AI博主1000视频研究-20261007/30账号内容地图-20261008/账号表.json",
+      "/Volumes/EXTERNAL/自媒体/AI博主1000视频研究-20261007/30账号内容地图-20261008/近期内容表.json",
+      "/Volumes/EXTERNAL/自媒体/AI博主1000视频研究-20261007/30账号内容地图-20261008/主页原始读取.json",
+      "/Volumes/EXTERNAL/自媒体/AI博主1000视频研究-20261007/30账号内容地图-20261008/日期本轮原始回执-20261009.json",
+      "/Volumes/EXTERNAL/自媒体/AI博主1000视频研究-20261007/指定5账号近两月-20261009/账号1-可见目录.json",
+      "/Volumes/EXTERNAL/自媒体/AI博主1000视频研究-20261007/柱子哥TzFilm全量专项-20261007/新增详情元数据.json",
+      "/Volumes/EXTERNAL/自媒体/AI博主1000视频研究-20261007/柱子哥TzFilm全量专项-20261007/内容分析/7657727877504437538.md",
+      "/Volumes/EXTERNAL/自媒体/AI博主1000视频研究-20261007/柱子哥TzFilm全量专项-20261007/内容分析/7637698039943089462.md",
+      "/Volumes/EXTERNAL/自媒体/内容雷达/README.md",
+      "/Volumes/EXTERNAL/自媒体/内容雷达/20261012/采集原始回执.json",
+      "/Volumes/EXTERNAL/自媒体/内容生产流程.md",
+      "/Volumes/EXTERNAL/自媒体/内容雷达/20261014/外部采集记录.json",
+      "/Volumes/EXTERNAL/自媒体/内容雷达/20261014/可拍选题卡.md",
+      "/Volumes/EXTERNAL/自媒体/内容雷达/20261014/官方核验摘录.json",
+      "/Volumes/EXTERNAL/自媒体/内容雷达/20261014/来源与读取范围.md",
+      "/Volumes/EXTERNAL/自媒体/内容雷达/20261012/工作场景入门选题.md",
+      "/Volumes/EXTERNAL/自媒体/内容雷达/20261014/证据/官方页面工具回执.json",
+      "/Volumes/EXTERNAL/自媒体/内容雷达/20261014/README.md",
+      "/Volumes/EXTERNAL/自媒体/内容雷达/20261013/可拍选题卡.md",
+      "/Volumes/EXTERNAL/自媒体/内容雷达/20261013/01-每日选题任务.md",
+      "/Volumes/EXTERNAL/自媒体/内容雷达/20261013/README.md",
+      "/Volumes/EXTERNAL/自媒体/内容雷达/20261013/网页证据摘录.json",
+      "/Volumes/EXTERNAL/自媒体/内容雷达/20261013/来源与读取范围.md",
+      "/Volumes/EXTERNAL/自媒体/内容雷达/20261013/回执.json",
+      "/Volumes/EXTERNAL/自媒体/首轮研究-20261006/证据/7683783312204651193-阅读文本.txt"
+    ]
+  },
+  "filename_query": [
+    "口播稿",
+    "workbuddy"
+  ],
+  "filename_matches": [],
+  "slack": {
+    "workspace": "T0C9EKQUQCW",
+    "channel": "C0C9EP29L9L",
+    "parent_ts": "1792066576.369989",
+    "read_thread_result": "complete; parent plus 4 replies; no more messages",
+    "parent_attachments": [
+      {
+        "id": "F0C9GRR1M50",
+        "name": "制作单_Codex.md"
+      },
+      {
+        "id": "F0C9GRR9Q4A",
+        "name": "销售数据_示例.xlsx"
+      }
+    ],
+    "script_attachment_found": false,
+    "raw_result": "slack-thread-evidence.json"
+  },
+  "targeted_context_read": [
+    "AGENTS.md",
+    "流程协作/README.md",
+    "流程协作/会话登记.json (matching context)",
+    "流程协作/流程状态.json (matching context)",
+    "内容生产流程.md (matching context)",
+    "交接包/自媒体运营迁移-Grok-20261015/01-项目与表达偏好.md (matching context)",
+    "内容雷达/20261014/可拍选题卡.md (matching context)",
+    "内容雷达/20261013/可拍选题卡.md (matching context)",
+    "内容雷达/20261012/工作场景入门选题.md (matching context)",
+    "workbuddy-test-20261015/inputs/制作单_Codex.md"
+  ],
+  "conclusion": "In this bounded authorized search no frozen script or paragraph IDs for this WorkBuddy right-click Excel → analysis → HTML report test were found. Script references in radar cards belong to other candidate tasks and are not adopted.",
+  "limits": "Does not claim every binary document or unrelated Slack message was searched. Did not access private conversation storage, excluded raw/recording-check.mov or evidence/recording-check-frame.png, or desktop UI."
+}

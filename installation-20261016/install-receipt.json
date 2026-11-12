@@ -1,0 +1,10 @@
+{
+  "installed_path": "/Applications/WorkBuddy.app",
+  "installed_utc": "2026-10-16T01:02:25.823496+00:00",
+  "source": "https://www.workbuddy.cn/v2/update?platform=workbuddy-darwin-arm64",
+  "version": "5.8.2",
+  "official_release": "5.8.2.41111488",
+  "architecture": "arm64",
+  "quarantine_cleared": false,
+  "existing_application_overwritten": false
+}

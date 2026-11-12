@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-sp-mode="scroll">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f5f4f1">
+<title>销售周报 · 10月12日–10月16日</title>
+<meta name="description" content="2026年10月12日–10月16日销售周报：四区域合计销售 171,643 元，环比下降 6.52%，华北为唯一且最大的下滑区域。">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/plus-jakarta-sans@5.2.5/700.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc@5.3.0/chinese-simplified-700.css">
+<style>
+:root{
+  --bg:#f5f4f1;
+  --panel:#ffffff;
+  --panel-soft:#faf9f7;
+  --ink:#101318;
+  --ink-2:#3c434d;
+  --muted:#757d88;
+  --line:rgba(16,19,24,.10);
+  --line-strong:rgba(16,19,24,.18);
+  --accent:#0b5fc0;
+  --accent-soft:#e8f0fb;
+  --up:#b3261e;
+  --up-soft:#fbeae8;
+  --down:#0d6b53;
+  --down-soft:#e6f3ee;
+  --warn:#8a5a00;
+  --warn-soft:#fbf1dd;
+  --ok:#5a6472;
+  --ok-soft:#eceef1;
+  --slate:#7f8b9c;
+  --font-display:"Plus Jakarta Sans","Noto Serif SC",-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+  --font-body:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+  --font-num:"Plus Jakarta Sans",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --radius:16px;
+  --shadow:0 1px 2px rgba(16,19,24,.04),0 10px 30px -18px rgba(16,19,24,.28);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:var(--font-body);font-size:15px;line-height:1.72;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+}
+img{max-width:100%;height:auto;display:block}
+.wrap{width:100%;max-width:720px;margin:0 auto;padding:0 18px}
+.num{font-family:var(--font-num);font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1;letter-spacing:-.01em}
+
+.hero{
+  padding:calc(40px + env(safe-area-inset-top,0px)) 0 8px;
+  background:radial-gradient(130% 90% at 100% 0%,rgba(11,95,192,.10),rgba(11,95,192,0) 62%),
+              radial-gradient(90% 70% at 0% 6%,rgba(13,107,83,.07),rgba(13,107,83,0) 60%);
+}
+.kicker{display:inline-block;font-family:var(--font-num);font-size:11.5px;font-weight:700;letter-spacing:.1em;color:var(--accent);text-transform:uppercase}
+.hero-title{
+  font-family:var(--font-display);font-weight:700;
+  font-size:clamp(28px,7.6vw,46px);line-height:1.16;letter-spacing:-.03em;
+  margin:14px 0 0;color:var(--ink);overflow-wrap:anywhere;
+}
+.hero-title .num{font-weight:700}
+.hero-lede{margin:16px 0 0;font-size:15.5px;line-height:1.75;color:var(--ink-2);max-width:38em}
+.hero-lede b{font-weight:700;color:var(--down);font-family:var(--font-num);font-variant-numeric:tabular-nums}
+.flag{
+  display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px;
+  margin:22px 0 0;padding:16px 18px;background:var(--panel);
+  border:1px solid var(--line);border-left:4px solid var(--down);
+  border-radius:6px 14px 14px 6px;box-shadow:var(--shadow);
+}
+.flag-label{font-size:12px;letter-spacing:.06em;color:var(--muted)}
+.flag-region{font-family:var(--font-display);font-size:21px;font-weight:700;letter-spacing:-.01em}
+.flag-val{font-family:var(--font-num);font-variant-numeric:tabular-nums;font-size:14.5px;font-weight:700;color:var(--down);margin-left:auto}
+.hero-meta{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:20px 0 0;padding:0}
+.hero-meta li{
+  font-size:12px;color:var(--muted);background:rgba(16,19,24,.045);
+  padding:5px 11px;border-radius:999px;white-space:nowrap;
+}
+
+main{padding-bottom:8px}
+.sec{margin-top:42px}
+.sec-head{display:flex;gap:12px;align-items:flex-start;margin-bottom:16px}
+.sec-num{font-family:var(--font-num);font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--accent);padding-top:7px}
+.sec-head h2{
+  font-family:var(--font-display);font-weight:700;
+  font-size:clamp(19px,5vw,25px);line-height:1.3;letter-spacing:-.015em;
+  margin:0;color:var(--ink);
+}
+.sec-desc{margin:4px 0 0;font-size:12.5px;color:var(--muted);line-height:1.5}
+
+.metrics{display:grid;grid-template-columns:1fr;gap:12px}
+.metric{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  padding:18px 20px;box-shadow:var(--shadow);
+}
+.metric--lead{
+  background:linear-gradient(150deg,#ffffff 0%,#f4f8fe 100%);
+  border-color:rgba(11,95,192,.20);
+}
+.metric-label{margin:0;font-size:12px;letter-spacing:.04em;color:var(--muted)}
+.metric-value{
+  margin:6px 0 0;font-family:var(--font-num);font-variant-numeric:tabular-nums;
+  font-size:clamp(30px,9vw,44px);font-weight:700;line-height:1.05;letter-spacing:-.035em;
+}
+.metric-value--text{font-family:var(--font-display);font-size:clamp(24px,7vw,32px)}
+.metric-value .unit{font-size:15px;font-weight:700;color:var(--muted);margin-left:5px;letter-spacing:0}
+.metric-delta{margin:8px 0 0;font-family:var(--font-num);font-variant-numeric:tabular-nums;font-size:14px;font-weight:700}
+.metric-note{margin:4px 0 0;font-size:12px;color:var(--muted)}
+.down{color:var(--down)}
+.up{color:var(--up)}
+
+.stack{display:grid;gap:10px}
+.row{
+  background:var(--panel);border:1px solid var(--line);border-radius:14px;
+  padding:15px 17px;box-shadow:var(--shadow);
+}
+.row.is-focus{background:linear-gradient(160deg,rgba(13,107,83,.055),rgba(13,107,83,.015));border-color:rgba(13,107,83,.28)}
+.row-top{display:flex;align-items:center;gap:10px}
+.row-name{font-family:var(--font-display);font-size:17px;font-weight:700;letter-spacing:-.01em}
+.row-name-sm{font-size:15px}
+.row-tag{
+  font-size:11px;font-weight:700;letter-spacing:.03em;
+  color:var(--down);background:var(--down-soft);
+  padding:2px 8px;border-radius:999px;white-space:nowrap;
+}
+.row-top .chip,.row-top .num-val{margin-left:auto}
+.chip{
+  display:inline-flex;align-items:center;gap:4px;font-family:var(--font-num);
+  font-variant-numeric:tabular-nums;font-size:12.5px;font-weight:700;
+  padding:3px 9px;border-radius:999px;white-space:nowrap;
+}
+.chip--down{background:var(--down-soft);color:var(--down)}
+.chip--up{background:var(--up-soft);color:var(--up)}
+.num-val{font-family:var(--font-num);font-variant-numeric:tabular-nums;font-size:16px;font-weight:700}
+.bar{height:8px;border-radius:999px;background:rgba(16,19,24,.075);overflow:hidden;margin:11px 0 9px}
+.bar-fill{display:block;height:100%;border-radius:999px;background:var(--slate)}
+.bar--down .bar-fill{background:var(--down)}
+.row-foot{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;font-size:12.5px;color:var(--muted)}
+.row-foot .num{font-size:13px;color:var(--ink-2);font-weight:700}
+
+.quote{
+  margin-top:14px;padding:16px 18px;background:var(--panel);
+  border:1px solid var(--line);border-left:4px solid var(--accent);
+  border-radius:6px 14px 14px 6px;box-shadow:var(--shadow);
+  font-family:"Noto Serif SC",var(--font-display);font-size:15px;line-height:1.7;color:var(--ink-2);
+}
+.quote b{font-weight:700;color:var(--ink);font-family:var(--font-num);font-variant-numeric:tabular-nums}
+
+details{margin-top:14px;background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+summary{
+  list-style:none;cursor:pointer;padding:14px 18px;font-size:13.5px;font-weight:700;color:var(--ink-2);
+  display:flex;align-items:center;gap:8px;min-height:44px;
+}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"";width:7px;height:7px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(45deg);margin-left:auto;transition:transform .25s ease}
+details[open] summary::after{transform:rotate(-135deg)}
+.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;padding:0 4px 4px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{padding:10px 12px;text-align:right;white-space:nowrap;border-bottom:1px solid var(--line);font-family:var(--font-num);font-variant-numeric:tabular-nums}
+th:first-child,td:first-child{text-align:left;font-family:var(--font-body)}
+thead th{background:var(--panel-soft);font-size:11.5px;font-weight:700;color:var(--muted);letter-spacing:.02em}
+tbody tr:last-child td{border-bottom:none;background:var(--panel-soft);font-weight:700}
+tbody tr.is-focus td{background:rgba(13,107,83,.05)}
+
+.checks{display:grid;gap:10px}
+.check{display:flex;gap:12px;align-items:flex-start;background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:14px 16px;box-shadow:var(--shadow)}
+.check-icon{flex:0 0 auto;width:22px;height:22px;margin-top:1px;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.check--ok .check-icon{background:var(--ok-soft)}
+.check--todo .check-icon{background:var(--warn-soft)}
+.check-icon svg{width:12px;height:12px}
+.check p{margin:0;font-size:14px;line-height:1.65;color:var(--ink-2)}
+.check strong{color:var(--ink);font-weight:700}
+.check em{font-style:normal;font-family:var(--font-num);font-variant-numeric:tabular-nums;color:var(--ink)}
+
+.actions{counter-reset:step;display:grid;gap:12px}
+.action{
+  position:relative;counter-increment:step;
+  background:var(--panel);border:1px solid var(--line);border-radius:14px;
+  padding:15px 17px 15px 54px;box-shadow:var(--shadow);
+  font-size:14.5px;line-height:1.68;color:var(--ink-2);
+}
+.action::before{
+  content:counter(step);position:absolute;left:16px;top:15px;
+  width:26px;height:26px;border-radius:50%;background:var(--accent-soft);color:var(--accent);
+  font-family:var(--font-num);font-size:13px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;
+}
+
+.doc-footer{
+  margin-top:48px;padding:22px 0 calc(38px + env(safe-area-inset-bottom,0px));
+  border-top:1px solid var(--line-strong);
+  display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12px;color:var(--muted);
+}
+.doc-footer span{line-height:1.6}
+
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .55s cubic-bezier(.2,0,0,1),transform .55s cubic-bezier(.2,0,0,1)}
+.reveal.in{opacity:1;transform:none}
+
+@media (min-width:641px){
+  .metrics{grid-template-columns:1fr 1fr}
+  .metric--lead{grid-column:1 / -1}
+  .hero{padding-top:64px}
+  .sec{margin-top:56px}
+  .flag{padding:18px 22px}
+}
+@media (max-width:640px){
+  .metrics{grid-template-columns:1fr}
+  .metric--lead{grid-column:auto}
+  .flag-val{margin-left:0;flex-basis:100%}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none;transition:none}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="kicker">销售周报 · 2026.10.12 – 10.16</span>
+    <h1 class="hero-title">本周四区域销售<br><span class="num">171,643</span> 元</h1>
+    <p class="hero-lede">环比上周减少 <b>11,976 元（−6.52%）</b>。华北是唯一的负增长区域，销售额减少 19,461 元、降幅 −42.96%，下滑金额与幅度均为全区第一。</p>
+    <div class="flag">
+      <span class="flag-label">下滑最大区域</span>
+      <span class="flag-region">华北</span>
+      <span class="flag-val">−19,461 元 · −42.96%</span>
+    </div>
+    <ul class="hero-meta">
+      <li>4 个区域</li>
+      <li>5 个产品</li>
+      <li>40 条明细</li>
+      <li>2 个完整工作周</li>
+    </ul>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="sec reveal">
+    <div class="metrics">
+      <article class="metric metric--lead">
+        <p class="metric-label">本周销售额</p>
+        <p class="metric-value">171,643<span class="unit">元</span></p>
+        <p class="metric-delta down">−11,976 元 · −6.52%</p>
+        <p class="metric-note">上周 183,619 元</p>
+      </article>
+      <article class="metric">
+        <p class="metric-label">本周销量</p>
+        <p class="metric-value">357<span class="unit">件</span></p>
+        <p class="metric-delta down">−24 件</p>
+        <p class="metric-note">上周 381 件</p>
+      </article>
+      <article class="metric">
+        <p class="metric-label">下滑区域数</p>
+        <p class="metric-value">1<span class="unit">个</span></p>
+        <p class="metric-delta down">华北 · −42.96%</p>
+        <p class="metric-note">华东、华南、西南均为正增长</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="sec reveal">
+    <div class="sec-head">
+      <span class="sec-num">01</span>
+      <div>
+        <h2>各区域表现</h2>
+        <p class="sec-desc">按本周销售额排序，横条长度表示本周销售额相对规模，单位：元</p>
+      </div>
+    </div>
+    <div class="stack">
+      <article class="row">
+        <div class="row-top">
+          <span class="row-name">华东</span>
+          <span class="chip chip--up">▲ +6.75%</span>
+        </div>
+        <div class="bar"><span class="bar-fill" style="width:100%"></span></div>
+        <div class="row-foot">
+          <span class="num-val">59,979</span>
+          <span>上周 56,185 · <span class="num">+3,794</span> · 销量 +6</span>
+        </div>
+      </article>
+
+      <article class="row">
+        <div class="row-top">
+          <span class="row-name">华南</span>
+          <span class="chip chip--up">▲ +4.17%</span>
+        </div>
+        <div class="bar"><span class="bar-fill" style="width:87.2%"></span></div>
+        <div class="row-foot">
+          <span class="num-val">52,292</span>
+          <span>上周 50,197 · <span class="num">+2,095</span> · 销量 +5</span>
+        </div>
+      </article>
+
+      <article class="row">
+        <div class="row-top">
+          <span class="row-name">西南</span>
+          <span class="chip chip--up">▲ +5.00%</span>
+        </div>
+        <div class="bar"><span class="bar-fill" style="width:55.9%"></span></div>
+        <div class="row-foot">
+          <span class="num-val">33,528</span>
+          <span>上周 31,932 · <span class="num">+1,596</span> · 销量 +4</span>
+        </div>
+      </article>
+
+      <article class="row is-focus">
+        <div class="row-top">
+          <span class="row-name">华北</span>
+          <span class="row-tag">唯一下滑</span>
+          <span class="chip chip--down">▼ −42.96%</span>
+        </div>
+        <div class="bar bar--down"><span class="bar-fill" style="width:43.1%"></span></div>
+        <div class="row-foot">
+          <span class="num-val">25,844</span>
+          <span>上周 45,305 · <span class="num">−19,461</span> · 销量 −39</span>
+        </div>
+      </article>
+    </div>
+    <div class="quote">剔除华北后，其余三区合计由 <b>137,314</b> 元增至 <b>145,799</b> 元，增加 <b>8,485</b> 元（+6.18%）。全公司的下滑完全由华北贡献。</div>
+
+    <details>
+      <summary>查看完整对比明细</summary>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>区域</th><th>上周</th><th>本周</th><th>环比变化</th><th>幅度</th><th>销量</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>华东</td><td>56,185</td><td>59,979</td><td>+3,794</td><td>+6.75%</td><td>+6</td></tr>
+            <tr class="is-focus"><td>华北</td><td>45,305</td><td>25,844</td><td>−19,461</td><td>−42.96%</td><td>−39</td></tr>
+            <tr><td>华南</td><td>50,197</td><td>52,292</td><td>+2,095</td><td>+4.17%</td><td>+5</td></tr>
+            <tr><td>西南</td><td>31,932</td><td>33,528</td><td>+1,596</td><td>+5.00%</td><td>+4</td></tr>
+            <tr><td>合计</td><td>183,619</td><td>171,643</td><td>−11,976</td><td>−6.52%</td><td>−24</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+  </section>
+
+  <section class="sec reveal">
+    <div class="sec-head">
+      <span class="sec-num">02</span>
+      <div>
+        <h2>华北拆解：5 个产品全线下滑</h2>
+        <p class="sec-desc">华北本周的下降不是单点问题，而是全面性回落，5 个产品无一例外，降幅集中在 −39% 至 −50%，横条长度表示下滑金额大小</p>
+      </div>
+    </div>
+    <div class="stack">
+      <article class="row">
+        <div class="row-top">
+          <span class="row-name row-name-sm">扫地机器人R5</span>
+          <span class="chip chip--down">▼ −50.00%</span>
+        </div>
+        <div class="bar bar--down"><span class="bar-fill" style="width:100%"></span></div>
+        <div class="row-foot">
+          <span class="num-val">−5,997</span>
+          <span>上周 11,994 → 本周 5,997 · 销量 6 → 3</span>
+        </div>
+      </article>
+
+      <article class="row">
+        <div class="row-top">
+          <span class="row-name row-name-sm">无线耳机E2</span>
+          <span class="chip chip--down">▼ −40.00%</span>
+        </div>
+        <div class="bar bar--down"><span class="bar-fill" style="width:66.6%"></span></div>
+        <div class="row-foot">
+          <span class="num-val">−3,992</span>
+          <span>上周 9,980 → 本周 5,988 · 销量 20 → 12</span>
+        </div>
+      </article>
+
+      <article class="row">
+        <div class="row-top">
+          <span class="row-name row-name-sm">空气净化器P3</span>
+          <span class="chip chip--down">▼ −40.00%</span>
+        </div>
+        <div class="bar bar--down"><span class="bar-fill" style="width:60.0%"></span></div>
+        <div class="row-foot">
+          <span class="num-val">−3,596</span>
+          <span>上周 8,990 → 本周 5,394 · 销量 10 → 6</span>
+        </div>
+      </article>
+
+      <article class="row">
+        <div class="row-top">
+          <span class="row-name row-name-sm">智能音箱A1</span>
+          <span class="chip chip--down">▼ −42.31%</span>
+        </div>
+        <div class="bar bar--down"><span class="bar-fill" style="width:54.8%"></span></div>
+        <div class="row-foot">
+          <span class="num-val">−3,289</span>
+          <span>上周 7,774 → 本周 4,485 · 销量 26 → 15</span>
+        </div>
+      </article>
+
+      <article class="row">
+        <div class="row-top">
+          <span class="row-name row-name-sm">电动牙刷T1</span>
+          <span class="chip chip--down">▼ −39.39%</span>
+        </div>
+        <div class="bar bar--down"><span class="bar-fill" style="width:43.1%"></span></div>
+        <div class="row-foot">
+          <span class="num-val">−2,587</span>
+          <span>上周 6,567 → 本周 3,980 · 销量 33 → 20</span>
+        </div>
+      </article>
+    </div>
+    <div class="quote">下滑贡献最大的是<b>扫地机器人R5</b>，两周销售额腰斩（−50.00%，销量 6 件降至 3 件）；无线耳机E2 次之，减少 <b>3,992</b> 元。华北本周合计减少 <b>19,461</b> 元。</div>
+  </section>
+
+  <section class="sec reveal">
+    <div class="sec-head">
+      <span class="sec-num">03</span>
+      <div>
+        <h2>数据质量核查</h2>
+        <p class="sec-desc">本次分析的 40 条记录整体质量良好、口径自洽，但有两点需要确认</p>
+      </div>
+    </div>
+    <div class="checks">
+      <div class="check check--ok">
+        <span class="check-icon"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 6.4l3 3L10.5 3" fill="none" stroke="#5a6472" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <p><strong>无缺失值</strong>：4 个区域 × 5 个工作日 × 2 周 = <em>40</em> 条记录完整齐整</p>
+      </div>
+      <div class="check check--ok">
+        <span class="check-icon"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 6.4l3 3L10.5 3" fill="none" stroke="#5a6472" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <p><strong>无零值、无负值</strong>：销量最小值为 <em>3</em> 件，销售额全部大于 0</p>
+      </div>
+      <div class="check check--ok">
+        <span class="check-icon"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 6.4l3 3L10.5 3" fill="none" stroke="#5a6472" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <p><strong>无重复记录</strong>：日期组合唯一，无完全重复行</p>
+      </div>
+      <div class="check check--ok">
+        <span class="check-icon"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 6.4l3 3L10.5 3" fill="none" stroke="#5a6472" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <p><strong>口径自洽</strong>：全部记录满足「销售额 = 销量 × 固定单价」，5 个产品单价跨周、跨区域稳定</p>
+      </div>
+      <div class="check check--todo">
+        <span class="check-icon"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M6 2v5" fill="none" stroke="#8a5a00" stroke-width="2" stroke-linecap="round"/><circle cx="6" cy="9.6" r="1.1" fill="#8a5a00"/></svg></span>
+        <p><strong>4 组跨周数值完全相同的记录</strong>，疑似模板复制录入：西南·无线耳机E2（15 件 / 7,485 元）、华东·空气净化器P3（12 件 / 10,788 元）、华南·扫地机器人R5（7 件 / 13,993 元）、西南·扫地机器人R5（4 件 / 7,996 元）</p>
+      </div>
+      <div class="check check--todo">
+        <span class="check-icon"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M6 2v5" fill="none" stroke="#8a5a00" stroke-width="2" stroke-linecap="round"/><circle cx="6" cy="9.6" r="1.1" fill="#8a5a00"/></svg></span>
+        <p><strong>华北的区域性异常</strong>需先排除录入问题，再归因到业务层面</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec reveal">
+    <div class="sec-head">
+      <span class="sec-num">04</span>
+      <div>
+        <h2>下周关注</h2>
+        <p class="sec-desc">基于本周数据的三个跟进方向</p>
+      </div>
+    </div>
+    <div class="actions">
+      <div class="action">核查华北下滑数据是否存在录入或统计口径问题。</div>
+      <div class="action">华北 5 个产品同时下滑，需排查是否为渠道、库存或促销退出的共同原因，而非单一产品问题。</div>
+      <div class="action">华东为本周增长最快区域（+6.75%），可作为其他区域的对照样本。</div>
+    </div>
+  </section>
+
+  <footer class="doc-footer">
+    <span>数据来源：销售明细（销售数据_示例.xlsx）</span>
+    <span>统计区间：2026-10-05 至 2026-10-16</span>
+    <span>报告生成：2026-10-16</span>
+  </footer>
+
+</main>
+
+<script>
+(function () {
+  var nodes = document.querySelectorAll('.reveal');
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var i;
+  function reveal(el) { el.classList.add('in'); }
+  if (reduce || !('IntersectionObserver' in window)) {
+    for (i = 0; i < nodes.length; i++) { reveal(nodes[i]); }
+    return;
+  }
+  var io = new IntersectionObserver(function (entries) {
+    for (var j = 0; j < entries.length; j++) {
+      if (entries[j].isIntersecting) {
+        reveal(entries[j].target);
+        io.unobserve(entries[j].target);
+      }
+    }
+  }, { threshold: 0.1, rootMargin: '0px 0px -6% 0px' });
+  for (i = 0; i < nodes.length; i++) { io.observe(nodes[i]); }
+})();
+</script>
+</body>
+</html>
